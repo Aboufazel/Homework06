@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('../font/AdobeClean-Regular.woff2') format('woff2');
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 5px 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.side_bar{
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.banner{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.R_flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.C_flex{
+    display: flex;
+    flex-direction: column;
+}

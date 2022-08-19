@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('font/AdobeClean-BoldIt.eot');
+    src: local('AdobeClean-BoldIt'),
+    url('font/AdobeClean-BoldIt.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-BoldIt.woff2') format('woff2'),
+    url('font/AdobeClean-BoldIt.woff') format('woff'),
+    url('font/AdobeClean-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adobe Clean SemiCondensed';
+    src: url('font/AdobeClean-BoldSemiCnIt.eot');
+    src: local('AdobeClean-BoldSemiCnIt'),
+    url('font/AdobeClean-BoldSemiCnIt.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-BoldSemiCnIt.woff2') format('woff2'),
+    url('font/AdobeClean-BoldSemiCnIt.woff') format('woff'),
+    url('font/AdobeClean-BoldSemiCnIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('font/AdobeClean-It.eot');
+    src: local('AdobeClean-It'),
+    url('font/AdobeClean-It.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-It.woff2') format('woff2'),
+    url('font/AdobeClean-It.woff') format('woff'),
+    url('font/AdobeClean-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('font/AdobeClean-Regular.eot');
+    src: local('AdobeClean-Regular'),
+    url('font/AdobeClean-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-Regular.woff2') format('woff2'),
+    url('font/AdobeClean-Regular.woff') format('woff'),
+    url('font/AdobeClean-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('font/AdobeClean-Bold.eot');
+    src: local('AdobeClean-Bold'),
+    url('font/AdobeClean-Bold.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-Bold.woff2') format('woff2'),
+    url('font/AdobeClean-Bold.woff') format('woff'),
+    url('font/AdobeClean-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('font/AdobeClean-Light.eot');
+    src: local('AdobeClean-Light'),
+    url('font/AdobeClean-Light.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-Light.woff2') format('woff2'),
+    url('font/AdobeClean-Light.woff') format('woff'),
+    url('font/AdobeClean-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adobe Clean SemiCondensed';
+    src: url('font/AdobeClean-SemiCnIt.eot');
+    src: local('AdobeClean-SemiCnIt'),
+    url('font/AdobeClean-SemiCnIt.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-SemiCnIt.woff2') format('woff2'),
+    url('font/AdobeClean-SemiCnIt.woff') format('woff'),
+    url('font/AdobeClean-SemiCnIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adobe Clean SemiCondensed';
+    src: url('font/AdobeClean-SemiCn.eot');
+    src: local('AdobeClean-SemiCn'),
+    url('font/AdobeClean-SemiCn.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-SemiCn.woff2') format('woff2'),
+    url('font/AdobeClean-SemiCn.woff') format('woff'),
+    url('font/AdobeClean-SemiCn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adobe Clean';
+    src: url('font/AdobeClean-LightIt.eot');
+    src: local('AdobeClean-LightIt'),
+    url('font/AdobeClean-LightIt.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-LightIt.woff2') format('woff2'),
+    url('font/AdobeClean-LightIt.woff') format('woff'),
+    url('font/AdobeClean-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Adobe Clean SemiCondensed';
+    src: url('font/AdobeClean-BoldSemiCn.eot');
+    src: local('AdobeClean-BoldSemiCn'),
+    url('font/AdobeClean-BoldSemiCn.eot?#iefix') format('embedded-opentype'),
+    url('font/AdobeClean-BoldSemiCn.woff2') format('woff2'),
+    url('font/AdobeClean-BoldSemiCn.woff') format('woff'),
+    url('font/AdobeClean-BoldSemiCn.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+body{
+   font-family: 'Adobe Clean';
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.up_btn{
+    background: rgba(1, 43, 85, 0.1);
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    height: 30px;
+    position: fixed;
+    bottom: 60px;
+    right: 35px;
+}
+.flex{
+    display: flex;
+}
+
+.R_flex{
+    flex-direction: row;
+}
+
+.C_flex{
+    flex-direction: column;
+}
+
+.side_bar{
+    height: 100vh;
+    padding: 20px 50px 0px 35px;
+    width: 20%;
+}
+
+.side_bar ul{
+    list-style-type:none;
+}
+.side_bar ul li{
+    margin: 10px 0px;
+    color: #41576D;
+}
+
+.side_bar ul li:hover{
+    cursor: pointer;
+}
+
+.pt-1{
+    padding-top: 0.7rem;
+}
+
+.pb-1{
+    padding-bottom: 1.2rem;
+}
+
+.bold_weight{
+    color: #012B55;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.side_bar h2{
+    padding-left: 39px;
+    color: #012B55;
+}
+
+.side_bar h2{
+    cursor: pointer;
+}
+
+.social{
+    margin: 0px 32px;
+}
+
+.social i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 0px 4px;
+    background: rgba(1, 43, 85, 0.1);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.social i:hover{
+    background: #F2CF3D;
+    cursor: pointer;
+}
+
+
+
+/***********************************************************/
+
+.main{
+    justify-content: start;
+    width: 80%;
+    padding: 0px;
+}
+
+.col{
+    justify-content: space-between;
+    width: 100%;
+    margin: 3px 3px;
+}
+
+.left_box{
+    position: relative;
+    width: 50%;
+    height: 300px;
+    margin: 0px 3px;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(24, 81, 140, 0.85);
+}
+
+.left_box:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.right_box:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.left_box img{
+    width: 100%;
+    height: 100%;
+}
+
+.right_box{
+    position: relative;
+    width: 50%;
+    height: 300px;
+    margin: 0px 3px;
+    text-align: center;
+}
+
+.right_box img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    justify-content: center;
+    align-items: center;
+    padding: 0px 176px;
+    margin-bottom: 8px;
+    background: #F7F8F9;
+    height: 450px;
+}
+
+.banner h3{
+    color: #012B55;
+    font-size: 28px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.banner p{
+    color: #597188;
+    font-family: bjpg;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: none;
+}
+
+.footer{
+    justify-content: center;
+    padding: 55px 0px;
+    align-items: center;
+}
+
+.footer .social{
+    padding-bottom: 25px;
+}
+
+
+@media  only screen and (max-device-width: 500px){
+    .side_bar{
+        display: none;
+    }
+    .main{
+        width: 100%;
+    }
+    .banner{
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+        margin-bottom: 8px;
+        background: #F7F8F9;
+        height: 450px;
+    }
+    .right_box{
+        width: 100%;
+        height: auto;
+    }
+    .left_box{
+        width: 100%;
+        height: auto;
+    }
+}
